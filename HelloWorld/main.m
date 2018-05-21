@@ -10,6 +10,10 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    
+    NSLog(@"Hello World!");
+    return (0);
+    
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
